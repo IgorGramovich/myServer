@@ -1,0 +1,14 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# VSCode
+.vscode
+.history
+*.code-workspace
+. jsbeautifyrc
+
+# JetBrains
+.idea
