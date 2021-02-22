@@ -3,6 +3,7 @@ node_modules
 
 # logs
 npm-debug.log
+*.log
 
 # VSCode
 .vscode
@@ -12,3 +13,7 @@ npm-debug.log
 
 # JetBrains
 .idea
+
+dist/*
+
+temperatureService.sh

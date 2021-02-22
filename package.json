@@ -1,0 +1,31 @@
+{
+  "name": "myserver",
+  "version": "0.0.1",
+  "description": "my home server",
+  "main": "index.js",
+  "scripts": {
+    "serv": "nodemon index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorGramovich/myServer.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Igor Gramovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorGramovich/myServer/issues"
+  },
+  "homepage": "https://github.com/IgorGramovich/myServer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
